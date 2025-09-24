@@ -1,0 +1,30 @@
+action,tenant,schema,project,context,name,description,sub_package,plugin
+// pgsql,,,,,,,,
+p,norpac,norpac-commons,norpac-commons-db,pgsql,database_tables,Data Definition,ddl.table,pgsql_create_table
+p,norpac,norpac-commons,norpac-commons-db,pgsql,database_validations,Postgres Validation Functions,ddl.validation,pgsql_validations
+p,norpac,norpac-commons,norpac-commons-db,pgsql,database_insert,Postgres Insert Procedure,ddl.insert,pgsql_function_insert
+p,norpac,norpac-commons,norpac-commons-db,pgsql,database_update,Postgres Update Procedure,ddl.update,pgsql_function_update
+p,norpac,norpac-commons,norpac-commons-db,pgsql,database_delete,Postgres Delete Procedure,ddl.delete,pgsql_function_delete
+p,norpac,norpac-commons,norpac-commons-db,pgsql,database_active,Postgres Active Procedure,ddl.active,pgsql_function_active
+// msdos,,,,,,,,
+p,norpac,norpac-commons,norpac-commons-db,msdos,create_tables_os_script,Create Database Tables Script,ddl.table,msdos_pgsql_create_table
+p,norpac,norpac-commons,norpac-commons-db,msdos,validations_os_script,Create Database Validations Script,ddl.validation,msdos_pgsql_validations
+p,norpac,norpac-commons,norpac-commons-db,msdos,insert_os_script,Create Insert Scripts,ddl.insert,msdos_pgsql_insert
+p,norpac,norpac-commons,norpac-commons-db,msdos,update_os_script,Create Update Scripts,ddl.update,msdos_pgsql_update
+p,norpac,norpac-commons,norpac-commons-db,msdos,delete_os_script,Create Delete Scripts,ddl.delete,msdos_pgsql_delete
+p,norpac,norpac-commons,norpac-commons-db,msdos,active_os_script,Create Active Scripts,ddl.active,msdos_pgsql_active
+// norpac-commons-api,,,,,,,,
+p,norpac,norpac-commons,norpac-commons-api,java,java_api_model,Java Class API Model,api.model,java_api_model
+p,norpac,norpac-commons,norpac-commons-api,java,java_api_active_request,Java Active API Requests,api.dto,java_api_active_request
+p,norpac,norpac-commons,norpac-commons-api,java,java_api_delete_request,Java Delete API Requests,api.dto,java_api_delete_request
+p,norpac,norpac-commons,norpac-commons-api,java,java_api_post_request,Java Post API Requests,api.dto,java_api_post_request
+p,norpac,norpac-commons,norpac-commons-api,java,java_api_put_request,Java Put API Requests,api.dto,java_api_put_request
+p,norpac,norpac-commons,norpac-commons-api,java,java_api_controller,Java Controller Classes,api.controller.v01,java_api_controller
+// norpac-commons-app,,,,,,,,
+p,norpac,norpac-commons,norpac-commons-app,typescript,angular_model,Angular Model,shared.model,angular_model
+p,norpac,norpac-commons,norpac-commons-app,typescript,angular_service,Angular Service,shared.service,angular_service
+p,norpac,norpac-commons,norpac-commons-app,typescript,angular_active_dto_class,Angular Active DTO Classes,shared.dto,angular_dto_classes
+p,norpac,norpac-commons,norpac-commons-app,typescript,angular_delete_dto_class,Angular Delete DTO Classes,shared.dto,angular_dto_classes
+p,norpac,norpac-commons,norpac-commons-app,typescript,angular_post_dto_class,Angular Post DTO Classes,shared.dto,angular_dto_classes
+p,norpac,norpac-commons,norpac-commons-app,typescript,angular_put_dto_class,Angular Put DTO Classes,shared.dto,angular_dto_classes
+p,norpac,norpac-commons,norpac-commons-app,typescript,angular_dto_classes,Angular Put DTO Classes,shared.dto,angular_dto_classes

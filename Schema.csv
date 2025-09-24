@@ -1,0 +1,2 @@
+action,tenant,name,description,database,username
+p,norpac,norpac-commons,NorPac Commons Schema,norpac,web_update

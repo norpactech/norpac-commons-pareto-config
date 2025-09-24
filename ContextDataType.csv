@@ -1,0 +1,106 @@
+action,tenant,schema,context,generic_data_type,sequence,name,description,alias,context_value
+// system,,,,,,,,,
+// pgsql,,,,,,,,,
+p,norpac,nopac-commons,pgsql,uuid,1,uuid,"Unique identifier, non-generated (i.e. foreign key)",UUID,uuid
+p,norpac,nopac-commons,pgsql,char,3,char,Fixed-length string,Char,char
+p,norpac,nopac-commons,pgsql,varchar,4,varchar,Variable-length string,Varying Character,varchar
+p,norpac,nopac-commons,pgsql,text,5,text,Large text storage,Text,text
+p,norpac,nopac-commons,pgsql,longtext,6,longtext,Large text storage,Text,text
+p,norpac,nopac-commons,pgsql,boolean,7,boolean,True/False values,Boolean,boolean
+p,norpac,nopac-commons,pgsql,smallint,8,smallint,Small Integer,Small Integer,smallint
+p,norpac,nopac-commons,pgsql,integer,9,integer,Integer,Integer,integer
+p,norpac,nopac-commons,pgsql,integer_serial,10,serial,"Integer, serial","Integer, Serial",serial
+p,norpac,nopac-commons,pgsql,bigint,11,bigint,Big integer,Big Integer,bigint
+p,norpac,nopac-commons,pgsql,biginteger_serial,12,bigserial,"Big integer, serial","Big Integer, Serial",bigserial
+p,norpac,nopac-commons,pgsql,real,13,real,Floating-point number with lower precision,Real Number,real
+p,norpac,nopac-commons,pgsql,double,14,double,Approximate precision floating-point numbers,Double Precision Number,double
+p,norpac,nopac-commons,pgsql,decimal,15,decimal,Exact precision decimal numbers,Fixed Decimal,decimal
+p,norpac,nopac-commons,pgsql,date,16,date,Date only,Date,date
+p,norpac,nopac-commons,pgsql,time,17,time,Time only,Time,time
+p,norpac,nopac-commons,pgsql,date_time,18,date_time,Date and time,Date Time,timestamp
+p,norpac,nopac-commons,pgsql,timestamp,19,timestamp,Exact date and time displayed in time zone,Timestamp,timestamp
+p,norpac,nopac-commons,pgsql,blob,20,blob,Binary data,Binary Data,blob
+p,norpac,nopac-commons,pgsql,json,21,json,JSON-formatted data,JSON Data,json
+// mysql,,,,,,,,,
+p,norpac,nopac-commons,mysql,uuid,1,char(36),"Unique identifier, non-generated (i.e. foreign key)",UUID,integer
+p,norpac,nopac-commons,mysql,char,3,char,Fixed-length string,Char,char
+p,norpac,nopac-commons,mysql,varchar,4,varchar,Variable-length string,Varying Character,varchar
+p,norpac,nopac-commons,mysql,text,5,longtext,Large text storage,Text,longtext
+p,norpac,nopac-commons,mysql,boolean,6,bit,True/False values,Boolean,boolean
+p,norpac,nopac-commons,mysql,smallint,7,smallint,Small Integer,Small Integer,smallint
+p,norpac,nopac-commons,mysql,integer,8,integer,Integer,Integer,integer
+p,norpac,nopac-commons,mysql,integer_serial,9,serial,"Integer, serial","Integer, Serial",serial
+p,norpac,nopac-commons,mysql,bigint,10,bigint,Big integer,Big Integer,bigint
+p,norpac,nopac-commons,mysql,biginteger_serial,11,bigserial,"Big integer, serial","Big Integer, Serial",bigserial
+p,norpac,nopac-commons,mysql,real,12,real,Floating-point number with lower precision,Real Number,float
+p,norpac,nopac-commons,mysql,double,13,double,Approximate precision floating-point numbers,Double Precision Number,double
+p,norpac,nopac-commons,mysql,decimal,14,decimal,Exact precision decimal numbers,Fixed Decimal,decimal
+p,norpac,nopac-commons,mysql,date,15,date,Date only,Date,date
+p,norpac,nopac-commons,mysql,time,16,time,Time only,Time,time
+p,norpac,nopac-commons,mysql,date_time,17,date_time,Date and time,Date Time,datetime
+p,norpac,nopac-commons,mysql,timestamp,18,timestamp,Exact date and time displayed in time zone,Timestamp,timestamp
+p,norpac,nopac-commons,mysql,blob,19,blob,Binary data,Binary Data,longblob
+p,norpac,nopac-commons,mysql,json,20,json,JSON-formatted data,JSON Data,json
+// java,,,,,,,,,
+p,norpac,nopac-commons,java,uuid,1,uuid,"Unique identifier, non-generated (i.e. foreign key)",UUID,java.util.UUID
+p,norpac,nopac-commons,java,char,3,char,Fixed-length string,Char,java.lang.String
+p,norpac,nopac-commons,java,varchar,4,varchar,Variable-length string,Varying Character,java.lang.String
+p,norpac,nopac-commons,java,text,5,text,Large text storage,Text,java.lang.String
+p,norpac,nopac-commons,java,longtext,6,longtext,Large text storage,Text,java.lang.String
+p,norpac,nopac-commons,java,boolean,7,boolean,True/False values,Boolean,java.lang.Boolean
+p,norpac,nopac-commons,java,smallint,8,short,Small Integer,Small Integer,java.lang.Short
+p,norpac,nopac-commons,java,integer,9,integer,Integer,Integer,java.lang.Integer
+p,norpac,nopac-commons,java,integer_serial,10,serial,"Integer, serial","Integer, Serial",java.lang.Integer
+p,norpac,nopac-commons,java,bigint,11,long,Big integer,Big Integer,java.lang.Long
+p,norpac,nopac-commons,java,biginteger_serial,12,long_serial,"Big integer, serial","Big Integer, Serial",java.lang.Long
+p,norpac,nopac-commons,java,real,13,float,Floating-point number with lower precision,Real Number,java.lang.Float
+p,norpac,nopac-commons,java,double,14,double,Approximate precision floating-point numbers,Double Precision Number,java.lang.Double
+p,norpac,nopac-commons,java,decimal,15,decimal,Exact precision decimal numbers,Fixed Decimal,java.lang.Double
+p,norpac,nopac-commons,java,date,16,date,Date only,Date,java.time.LocalDate
+p,norpac,nopac-commons,java,time,17,time,Time only,Time,java.time.LocalTime 
+p,norpac,nopac-commons,java,date_time,18,date_time,Date and time,Date Time,java.time.LocalDateTime
+p,norpac,nopac-commons,java,timestamp,19,timestamp,Exact date and time displayed in time zone,Timestamp,java.sql.Timestamp
+p,norpac,nopac-commons,java,blob,20,blob,Binary data,Binary Data,java.lang.Byte
+p,norpac,nopac-commons,java,json,21,json,JSON-formatted data,JSON Data,com.google.gson.Gson
+// typescript,,,,,,,,,
+p,norpac,nopac-commons,typescript,uuid,1,uuid,"Unique identifier, non-generated (i.e. foreign key)",UUID,string
+p,norpac,nopac-commons,typescript,char,3,char,Fixed-length string,Char,string
+p,norpac,nopac-commons,typescript,varchar,4,varchar,Variable-length string,Varying Character,string
+p,norpac,nopac-commons,typescript,text,5,text,Large text storage,Text,string
+p,norpac,nopac-commons,typescript,longtext,6,longtext,Large text storage,Text,string
+p,norpac,nopac-commons,typescript,boolean,7,boolean,True/False values,Boolean,boolean
+p,norpac,nopac-commons,typescript,smallint,8,short,Small Integer,Small Integer,number
+p,norpac,nopac-commons,typescript,integer,9,integer,Integer,Integer,number
+p,norpac,nopac-commons,typescript,integer_serial,10,serial,"Integer, serial","Integer, Serial",number
+p,norpac,nopac-commons,typescript,bigint,11,long,Big integer,Big Integer,number
+p,norpac,nopac-commons,typescript,biginteger_serial,12,long_serial,"Big integer, serial","Big Integer, Serial",number
+p,norpac,nopac-commons,typescript,real,13,float,Floating-point number with lower precision,Real Number,number
+p,norpac,nopac-commons,typescript,double,14,double,Approximate precision floating-point numbers,Double Precision Number,number
+p,norpac,nopac-commons,typescript,decimal,15,decimal,Exact precision decimal numbers,Fixed Decimal,number
+p,norpac,nopac-commons,typescript,date,16,date,Date only,Date,Date
+p,norpac,nopac-commons,typescript,time,17,time,Time only,Time,string
+p,norpac,nopac-commons,typescript,date_time,18,date_time,Date and time,Date Time,Date
+p,norpac,nopac-commons,typescript,timestamp,19,timestamp,Exact date and time displayed in time zone,Timestamp,Date
+p,norpac,nopac-commons,typescript,blob,20,blob,Binary data,Binary Data,Blob
+p,norpac,nopac-commons,typescript,json,21,json,JSON-formatted data,JSON Data,any
+// schemacrawler,,,,,,,,,
+p,norpac,nopac-commons,schemacrawler,uuid,1,char(36),"Unique identifier, non-generated (i.e. foreign key) (char(36) = mysql uuid)",UUID,uuid
+p,norpac,nopac-commons,schemacrawler,char,3,char,Fixed-length string,Char,char
+p,norpac,nopac-commons,schemacrawler,varchar,4,varchar,Variable-length string,Varying Character,varchar
+p,norpac,nopac-commons,schemacrawler,text,5,text,Large text storage,Text,text
+p,norpac,nopac-commons,schemacrawler,longtext,6,longtext,Large text storage,Text,text
+p,norpac,nopac-commons,schemacrawler,boolean,7,bit,True/False values (bit=mysql),Boolean,bit
+p,norpac,nopac-commons,schemacrawler,smallint,8,short,Small Integer,Small Integer,tinyint
+p,norpac,nopac-commons,schemacrawler,integer,9,integer,Integer,int,integer
+p,norpac,nopac-commons,schemacrawler,integer_serial,10,serial,"Integer, serial","Integer, Serial",integer-serial
+p,norpac,nopac-commons,schemacrawler,bigint,11,long,Big integer,Big Integer,bigint
+p,norpac,nopac-commons,schemacrawler,biginteger_serial,12,long_serial,"Big integer, serial","Big Integer, Serial",bigint-serial
+p,norpac,nopac-commons,schemacrawler,real,13,float,Floating-point number with lower precision,Real Number,float
+p,norpac,nopac-commons,schemacrawler,double,14,double,Approximate precision floating-point numbers,Double Precision Number,double
+p,norpac,nopac-commons,schemacrawler,decimal,15,decimal,Exact precision decimal numbers,Fixed Decimal,decimal
+p,norpac,nopac-commons,schemacrawler,date,16,date,Date only,Date,date
+p,norpac,nopac-commons,schemacrawler,time,17,time,Time only,Time,time
+p,norpac,nopac-commons,schemacrawler,date_time,18,date_time,Date and time,Date Time,date_time
+p,norpac,nopac-commons,schemacrawler,timestamp,19,timestamp,Exact date and time displayed in time zone,Timestamp,timestamp
+p,norpac,nopac-commons,schemacrawler,blob,20,blob,Binary data,Binary Data,blob
+p,norpac,nopac-commons,schemacrawler,json,21,json,JSON-formatted data,JSON Data,json
