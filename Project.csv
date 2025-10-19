@@ -1,4 +1,4 @@
 action,tenant,schema,name,description,domain,artifact
 p,norpac,norpac-commons,norpac-commons-db,NorPac Commons Database Project,com.norpactech,nc
 p,norpac,norpac-commons,norpac-commons-api,NorPac Commons API Project,com.norpactech,nc
-p,norpac,norpac-commons,Norpac-commons-app,NorPac Commons Angular Project,com.norpactech,nc
+p,norpac,norpac-commons,norpac-commons-app,NorPac Commons Angular Project,com.norpactech,nc

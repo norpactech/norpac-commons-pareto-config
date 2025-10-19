@@ -1,8 +1,8 @@
 action,context,tenant,schema,generic_data_type,generic_property_type,length,scale,is_nullable,default_value
 // pgsql,,,,,,,,,
-p,pgsql,norpac,nopac-commons,uuid,id,,,FALSE,GEN_RANDOM_UUID()
-p,pgsql,norpac,nopac-commons,timestamp,created_at,,,FALSE,CURRENT_TIMESTAMP
-p,pgsql,norpac,nopac-commons,varchar,created_by,,,FALSE,
-p,pgsql,norpac,nopac-commons,timestamp,updated_at,,,FALSE,CURRENT_TIMESTAMP
-p,pgsql,norpac,nopac-commons,varchar,updated_by,,,FALSE,
-p,pgsql,norpac,nopac-commons,boolean,is_active,,,FALSE,TRUE
+p,pgsql,norpac,norpac-commons,uuid,id,,,FALSE,GEN_RANDOM_UUID()
+p,pgsql,norpac,norpac-commons,timestamp,created_at,,,FALSE,CURRENT_TIMESTAMP
+p,pgsql,norpac,norpac-commons,varchar,created_by,,,FALSE,
+p,pgsql,norpac,norpac-commons,timestamp,updated_at,,,FALSE,CURRENT_TIMESTAMP
+p,pgsql,norpac,norpac-commons,varchar,updated_by,,,FALSE,
+p,pgsql,norpac,norpac-commons,boolean,is_active,,,FALSE,TRUE

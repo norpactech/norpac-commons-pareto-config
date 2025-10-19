@@ -1,0 +1,4 @@
+action,tenant,schema,object,data_type,sequence,name,description,references,cardinality,is_updatable,fk_viewable,has_referential_action,length,scale,is_nullable,default_value,validation
+// tenant_user,,,,,,,,,,,,,,,,,
+p,norpac,norpac-commons,tenant_user,fk,1,id_tenant,Tenant,tenant,1:M,FALSE,TRUE,TRUE,,,FALSE,,
+p,norpac,norpac-commons,tenant_user,fk,2,id_user,User,user,1:M,FALSE,TRUE,TRUE,,,FALSE,,

@@ -1,10 +1,10 @@
 action,tenant,schema,generic_data_type,rt_attr_data_type,name,description
-p,norpac,nopac-commons,char,integer,length,Character length value
-p,norpac,nopac-commons,varchar,integer,length,Varying character length value
-p,norpac,nopac-commons,smallint,numeric_size_enum,size,"Small not [Medium, Large]"
-p,norpac,nopac-commons,integer,numeric_size_enum,size,"Medium not [Small, Large]"
-p,norpac,nopac-commons,bigint,numeric_size_enum,size,"Large not [Small, Medium]"
-p,norpac,nopac-commons,real,numeric_size_enum,size,"Small not [Medium, Large]"
-p,norpac,nopac-commons,double,numeric_size_enum,size,"Medium not [Small, Large]"
-p,norpac,nopac-commons,decimal,integer,length,Decimal number size
-p,norpac,nopac-commons,decimal,integer,precision,Decimal precision (size)
+p,norpac,norpac-commons,char,integer,length,Character length value
+p,norpac,norpac-commons,varchar,integer,length,Varying character length value
+p,norpac,norpac-commons,smallint,numeric_size_enum,size,"Small not [Medium, Large]"
+p,norpac,norpac-commons,integer,numeric_size_enum,size,"Medium not [Small, Large]"
+p,norpac,norpac-commons,bigint,numeric_size_enum,size,"Large not [Small, Medium]"
+p,norpac,norpac-commons,real,numeric_size_enum,size,"Small not [Medium, Large]"
+p,norpac,norpac-commons,double,numeric_size_enum,size,"Medium not [Small, Large]"
+p,norpac,norpac-commons,decimal,integer,length,Decimal number size
+p,norpac,norpac-commons,decimal,integer,precision,Decimal precision (size)
