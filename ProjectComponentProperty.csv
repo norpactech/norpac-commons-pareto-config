@@ -56,3 +56,11 @@ p,norpac,norpac-commons,norpac-commons-app,angular_put_dto_class ,5,*,!=created_
 p,norpac,norpac-commons,norpac-commons-app,angular_put_dto_class ,6,*,!=created_by
 p,norpac,norpac-commons,norpac-commons-app,angular_put_dto_class ,7,*,!=is_active
 p,norpac,norpac-commons,norpac-commons-app,angular_put_dto_class ,8,*,*
+// norpac-commons-loader,,,,,,,
+// api_post_request,,,,,,,
+p,norpac,norpac-commons,norpac-commons-loader,java_api_post_request,1,*,!=id
+p,norpac,norpac-commons,norpac-commons-loader,java_api_post_request,2,*,!=created_at
+p,norpac,norpac-commons,norpac-commons-loader,java_api_post_request,3,*,!=updated_at
+p,norpac,norpac-commons,norpac-commons-loader,java_api_post_request,4,*,!=updated_by
+p,norpac,norpac-commons,norpac-commons-loader,java_api_post_request,5,*,!=is_active
+p,norpac,norpac-commons,norpac-commons-loader,java_api_post_request,6,*,*
