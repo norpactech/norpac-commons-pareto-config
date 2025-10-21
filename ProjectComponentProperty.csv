@@ -64,3 +64,9 @@ p,norpac,norpac-commons,norpac-commons-loader,java_api_post_request,3,*,!=update
 p,norpac,norpac-commons,norpac-commons-loader,java_api_post_request,4,*,!=updated_by
 p,norpac,norpac-commons,norpac-commons-loader,java_api_post_request,5,*,!=is_active
 p,norpac,norpac-commons,norpac-commons-loader,java_api_post_request,6,*,*
+// api_put_request,,,,,,,
+p,norpac,norpac-commons,norpac-commons-loader,java_api_put_request,1,*,!=id_tenant
+p,norpac,norpac-commons,norpac-commons-loader,java_api_put_request,2,*,!=created_at
+p,norpac,norpac-commons,norpac-commons-loader,java_api_put_request,3,*,!=created_by
+p,norpac,norpac-commons,norpac-commons-loader,java_api_put_request,4,*,!=is_active
+p,norpac,norpac-commons,norpac-commons-loader,java_api_put_request,5,*,*

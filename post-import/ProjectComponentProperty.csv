@@ -1,0 +1,7 @@
+action,tenant,schema,project,project_component,sequence,data_object_filter,property_filter
+// msdos_update,,,,,,,
+p,norpac,norpac-commons,norpac-commons-db,update_os_script,50,coupon_product,!=*
+// msdos_active,,,,,,,
+p,norpac,norpac-commons,norpac-commons-db,active_os_script,50,coupon_product,!=*
+// api_post_request,,,,,,,
+p,norpac,norpac-commons,norpac-commons-api,java_api_put_request,50,coupon_product,!=*
