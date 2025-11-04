@@ -20,6 +20,7 @@ p,norpac,norpac-commons,norpac-commons-api,java,java_api_delete_request,Java Del
 p,norpac,norpac-commons,norpac-commons-api,java,java_api_post_request,Java Post API Requests,api.dto,java_api_post_request
 p,norpac,norpac-commons,norpac-commons-api,java,java_api_put_request,Java Put API Requests,api.dto,java_api_put_request
 p,norpac,norpac-commons,norpac-commons-api,java,java_api_controller,Java Controller Classes,api.controller.v01,java_api_controller
+p,norpac,norpac-commons,Norpac-commons-api,java,java_native_repository,Java Native (Non-Spring) Repository,api.repository,java_native_repository
 // norpac-commons-app,,,,,,,,
 p,norpac,norpac-commons,norpac-commons-app,typescript,angular_model,Angular Model,shared.model,angular_model
 p,norpac,norpac-commons,norpac-commons-app,typescript,angular_service,Angular Service,shared.service,angular_service
@@ -28,9 +29,3 @@ p,norpac,norpac-commons,norpac-commons-app,typescript,angular_delete_dto_class,A
 p,norpac,norpac-commons,norpac-commons-app,typescript,angular_post_dto_class,Angular Post DTO Classes,shared.dto,angular_dto_classes
 p,norpac,norpac-commons,norpac-commons-app,typescript,angular_put_dto_class,Angular Put DTO Classes,shared.dto,angular_dto_classes
 p,norpac,norpac-commons,norpac-commons-app,typescript,angular_dto_classes,Angular Put DTO Classes,shared.dto,angular_dto_classes
-// norpac-commons-loader,,,,,,,,
-p,norpac,norpac-commons,norpac-commons-loader,java,java_api_model,Java Class API Model,loader.model,java_api_model
-p,norpac,norpac-commons,norpac-commons-loader,java,java_api_delete_request,Java Delete API Requests,loader.dto,java_api_delete_request
-p,norpac,norpac-commons,norpac-commons-loader,java,java_api_post_request,Java Post API Requests,loader.dto,java_api_post_request
-p,norpac,norpac-commons,norpac-commons-loader,java,java_api_put_request,Java Put API Requests,loader.dto,java_api_put_request
-p,norpac,norpac-commons,norpac-commons-loader,java,java_native_repository,Java Native (Non-Spring) Repository,loader.repository,java_native_repository

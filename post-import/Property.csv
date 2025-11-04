@@ -1,4 +1,9 @@
 action,tenant,schema,object,data_type,sequence,name,description,references,cardinality,is_updatable,fk_viewable,has_referential_action,length,scale,is_nullable,default_value,validation
+// tenant,,,,,,,,,,,,,,,,,
+p,norpac,norpac-commons,tenant,fk,1,id_tenant_origin,Tenant Origin Foreign Key,tenant_origin,1:M,FALSE,TRUE,TRUE,,,FALSE,,
 // tenant_user,,,,,,,,,,,,,,,,,
-p,norpac,norpac-commons,coupon_product,fk,1,id_product,Tenant,tenant,1:M,FALSE,TRUE,TRUE,,,FALSE,,
+p,norpac,norpac-commons,tenant_user,fk,1,id_tenant,Tenant,tenant,1:M,FALSE,TRUE,TRUE,,,FALSE,,
+p,norpac,norpac-commons,tenant_user,fk,2,id_user,User,user,1:M,FALSE,TRUE,TRUE,,,FALSE,,
+// coupon_product,,,,,,,,,,,,,,,,,
+p,norpac,norpac-commons,coupon_product,fk,1,id_product,Tenant,product,1:M,FALSE,TRUE,TRUE,,,FALSE,,
 p,norpac,norpac-commons,coupon_product,fk,2,id_coupon,Coupon,coupon,1:M,FALSE,TRUE,TRUE,,,FALSE,,

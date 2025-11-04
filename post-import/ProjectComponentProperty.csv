@@ -1,7 +1,13 @@
 action,tenant,schema,project,project_component,sequence,data_object_filter,property_filter
 // msdos_update,,,,,,,
 p,norpac,norpac-commons,norpac-commons-db,update_os_script,50,coupon_product,!=*
+p,norpac,norpac-commons,norpac-commons-db,update_os_script,51,tenant_user,!=*
+p,norpac,norpac-commons,norpac-commons-db,update_os_script,52,address_region,!=*
 // msdos_active,,,,,,,
 p,norpac,norpac-commons,norpac-commons-db,active_os_script,50,coupon_product,!=*
+p,norpac,norpac-commons,norpac-commons-db,active_os_script,51,tenant_user,!=*
+p,norpac,norpac-commons,norpac-commons-db,active_os_script,52,address_region,!=*
 // api_post_request,,,,,,,
 p,norpac,norpac-commons,norpac-commons-api,java_api_put_request,50,coupon_product,!=*
+p,norpac,norpac-commons,norpac-commons-api,java_api_put_request,51,tenant_user,!=*
+p,norpac,norpac-commons,norpac-commons-api,java_api_put_request,52,address_region,!=*
